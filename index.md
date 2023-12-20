@@ -1,5 +1,4 @@
 ---
-title: Welcome to my blog
+title: From 101 to ∞
 ---
-Hello world,
-My name is Lucas, and I'm excited to sharing what I've learned with the world!
+Where the learning never ends!
