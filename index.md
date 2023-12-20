@@ -1,4 +1,5 @@
 ---
-title: From 101 to ∞
+title: $101 \xrightarrow{\hspace80em} \infty$
 ---
 Where the learning never ends!
+
