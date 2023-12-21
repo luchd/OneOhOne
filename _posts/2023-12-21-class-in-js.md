@@ -1,5 +1,7 @@
-# Class in JavaScript 101
-
+---
+title: Class in JavaScript 101
+date: 2023-12-21
+---
 ## Outline
 1. What is class? And why we need it?
 2. Constructor
