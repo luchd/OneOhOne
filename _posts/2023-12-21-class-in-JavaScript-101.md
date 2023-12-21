@@ -9,7 +9,6 @@ date: 2023-12-21
 4. Inheritance Basics
 5. Static Properties
 
-##
 
 Whenever the term 'class' arises in programming, my thoughts instinctively turn to the Object-Oriented Programming paradigm. In JavaScript, the 'class' keyword empowers us to effortlessly model real-life objects, making them tangible entities within our code.
 ## 1. What is class? And why we need it?
