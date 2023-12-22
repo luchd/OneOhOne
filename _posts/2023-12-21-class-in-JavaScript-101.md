@@ -160,6 +160,12 @@ These exemplify the fundamental uses of `class` in JavaScript, simplifying our e
 - Utilize bracket notation (`[]`) to access properties from a literal object, especially when dealing with expressions, as opposed to dot notation (`.`).
 - Static methods often function as 'factory' methods, facilitating the creation of instances.
 - In JavaScript, classes can be inherited at arbitrary nested levels. This differs from the concept of multi-inheritance in programming, where a class can inherit from multiple parent classes simultaneously.
+- An instance under the hood is essentially an object of the class type. Consequently, utilizing the `typeof` operator on an instance invariably yields 'object' as the result. To ascertain the class type of an instance, the preferred operator is `instanceof`.
+    ```
+    const car = new Car();
+    console.log(typeof car);            // 'object'
+    console.log(car instanceof Car);    // true
+    ```
 
 *As my knowledge is still evolving, my insights may have some limitations. I welcome comments and further discussions from readers, appreciating your time and support for this piece. Thank you for engaging with the content.*
 
