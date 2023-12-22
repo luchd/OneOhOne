@@ -166,6 +166,7 @@ These exemplify the fundamental uses of `class` in JavaScript, simplifying our e
     console.log(typeof car);            // 'object'
     console.log(car instanceof Car);    // true
     ```
+- Exercise caution with the `this` keyword, as its scope varies. In static methods, `this` refers to the *class* itself, whereas in instance methods, it pertains to the *instance* invoking the method.
 
 *As my knowledge is still evolving, my insights may have some limitations. I welcome comments and further discussions from readers, appreciating your time and support for this piece. Thank you for engaging with the content.*
 
