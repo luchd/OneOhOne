@@ -35,7 +35,7 @@ greeting();
 ```
 This will return a really big object, starting with something like this:
 
-![image](https://hackmd.io/_uploads/r1PPPxowT.png)
+![image](https://github.com/luchd/OneOhOne/assets/30389774/ab40d8fc-f646-4e36-8b0d-5521d0ad7677)
 
 So, let's revisit our initial question: What exactly is `this`? Think of `this` as the entity that triggers the method. In simpler terms, it's the object on the left side of the dot notation. By default, when we declare a function or a variable in the global scope, we're essentially attaching it to the `Window` object (or some other global objects). Consequently, when we invoke it, the `Window` object is implicitly added to the left side of the dot notation. However, things become more intriguing when we explore the concept of `this` within a class, a topic we'll delve into in the next section.
 ## 2. This and Classes
