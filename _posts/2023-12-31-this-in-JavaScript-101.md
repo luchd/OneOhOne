@@ -1,5 +1,5 @@
 ---
-title: <code>this</code> in JavaScript 101
+title: 'this' in JavaScript 101
 date: 2023-12-31
 ---
 ## Outline
