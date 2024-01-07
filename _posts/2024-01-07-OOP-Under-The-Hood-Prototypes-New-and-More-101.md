@@ -149,7 +149,7 @@ console.log(yel);
 
 We've just instantiated a Dog object named 'yel' using the 'Dog' class. Each Dog instance features properties like 'name' and 'breed,' along with methods such as 'bark()' and 'sleep()'. However, upon inspecting the 'yel' instance, we observe that only its properties (name and breed) are visible.
 
-![image](https://hackmd.io/_uploads/HyZDBB_uT.png)
+![image](https://github.com/luchd/OneOhOne/assets/30389774/2937994d-4bd1-4f08-b57d-6465da54d4d1)
 
 Although we can call the 'bark()' and 'sleep()' methods, interestingly, they seem 'invisible' when inspected through the console!
 
@@ -195,7 +195,7 @@ We've just defined the same Dog blueprint and instantiated an object named 'odo.
 console.log(odo);
 ```
 
-![image](https://hackmd.io/_uploads/Sy7dBrOd6.png)
+![image](https://github.com/luchd/OneOhOne/assets/30389774/8b3ee120-e082-4b00-a9a8-d821a6392b12)
 
 Similar to the 'class' behavior, this pattern persists for other instances.
 
@@ -204,7 +204,7 @@ const ada = new Dog("Ada", "Boxer");
 console.log(ada);
 ```
 
-![image](https://hackmd.io/_uploads/r1iuSHuuT.png)
+![image](https://github.com/luchd/OneOhOne/assets/30389774/ea10745e-7acf-4098-aa43-bb3b4eb3d36b)
 
 It seems that each instance maintains its individual copies of the 'bark()' and 'sleep()' methods. This observation becomes evident when we perform a comparison, mirroring our previous assessment with the Dog class.
 
@@ -222,7 +222,7 @@ The prototype is a fundamental mechanism enabling objects to inherit features an
 console.log(taki.__proto__);
 ```
 
-![image](https://hackmd.io/_uploads/SJ7Yrrd_p.png)
+![image](https://github.com/luchd/OneOhOne/assets/30389774/99d83285-e0e5-41c4-a581-8a01aa57c678)
 
 Voila! Here they are, the 'bark()' and 'sleep()' methods.
 To move methods from a constructor function to its prototype, we can access the 'prototype' object, a pre-defined property for every function in JavaScript.
@@ -267,7 +267,7 @@ console.log(foo.toString());    // '[object Object]'
 
 Even though we obtained something not particularly useful, there are no errors! Where is the 'toString()' method defined? Unlike 'bark()' and 'sleep()', 'toString()' wasn't found inside foo's prototype. However, delving deeper into the prototype inside 'foo', we uncover a few other things, including the presence of the 'toString()' method.
 
-![image](https://hackmd.io/_uploads/rJatBBuua.png)
+![image](https://github.com/luchd/OneOhOne/assets/30389774/3c2d96ff-5911-46c2-acef-96ae3dbdd561)
 
 Indeed, this is how JavaScript behaves when attempting to access a property or invoke a method on an object. If a property or method is not found on the current object, JavaScript then looks for it in the object's prototype. This search continues up the prototype chain until the property or method is found or the chain reaches its end. Let's illustrate this concept with another example.
 
@@ -318,7 +318,7 @@ console.log(child.__proto__.__proto__);    // -> grandparent object
 console.log(child.__proto__.__proto__.__proto__);    // -> the pre-defined prototype object (shown below)
 ```
 
-![image](https://hackmd.io/_uploads/Hy_5HSdOT.png)
+![image](https://github.com/luchd/OneOhOne/assets/30389774/4fb64fbc-88d0-4dce-b771-4b1ba82a521d)
 
 ## 4. Classes, Inheritance, and Prototypes
 It appears that classes and inheritance in JavaScript essentially translate to prototypes and prototype chains. To gain a deeper understanding of the inner workings, let's revisit the Dog class introduced at the beginning of this post.
