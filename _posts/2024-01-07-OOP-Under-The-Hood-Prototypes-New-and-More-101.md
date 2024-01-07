@@ -445,6 +445,7 @@ console.log(employee.isPrototypeOf(john));    // true
 - By default, class methods are automatically added to the class prototype. Inheritance further establishes a prototype link from the derived class to the inherited one, thereby forming a cohesive prototype chain.
 - `__proto__` is an internal link pointing to an object's prototype, and direct interaction with it is not recommended. In contrast, the `prototype` is a property in constructor functions that enables the direct addition of properties or methods to their prototypes.
 - Here are some useful methods for working with objects and prototypes: `Object.create()`, `Object.getPrototypeOf()`, `Object.setPrototypeOf()`, and `isPrototypeOf()`.
+
 ## Read more
 - [Object prototypes - MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
 - [Object - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
